@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cupcuper.sharepoint.com/sites/dev1",
+      "customActions": {
+        "ef091912-8e9f-4857-b7e0-bdf4244e9620": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spview": {
+      "pageUrl": "https://cupcuper.sharepoint.com/sites/dev1",
+      "customActions": {
+        "ef091912-8e9f-4857-b7e0-bdf4244e9620": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
